@@ -13,17 +13,17 @@ return (
         </div>
         <div className="box">
             <h2>About Us</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa?</p>
+            <p>Cultivando abundancia, regando esperanza. <br></br>
+            Soluciones tecnológicas accesibles a quienes más lo necesitan.</p>
+            <p>Transforma la agricultura rural con nuestro sistema vertical: accesible, eficiente y sostenible.</p>
         </div>
         <div className="box">
             <h2>Follow Us</h2>
             <div className="red-social">
-            <a href="#" className="fa fa-facebook"></a>
-            <a href="#" className="fa fa-instagram"></a>
-            <a href="#" className="fa fa-envelope"></a>
-            <i className="fa fa-envelope"></i>
-            <a href="#" className="fa fa-youtube"></a>
+            
+            <a target="_blank" href="https://www.instagram.com/watergrowthsolutions/" className="fa-brands fa-instagram"></a>
+            <a href="mailto:watergrowthsolutions@gmail.com" className="fa fa-envelope"></a>
+            <a href="" className="fa-brands fa-youtube"></a>
             </div>
         </div>
         </div>

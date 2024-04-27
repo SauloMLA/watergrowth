@@ -25,6 +25,7 @@ function Service() {
                     </p>
                 </div>
                 </div>
+
                 <div className="column">
                 <div className="card">
                     <div className="icon-wrapper">
@@ -38,15 +39,27 @@ function Service() {
                     </p>
                 </div>
                 </div>
+
                 <div className="column">
                 <div className="card3">
                     <div className="icon-wrapper">
-                    <i className="fas fa-wrench"></i>
+                    <i className="fa-solid fa-mobile-screen"></i>
                     </div>
-                    <h4>De tu mano al huerto</h4>
+                    <h4>Riega desde tu Bolsillo</h4>
                     <p>
                     Optimiza el riego de tu huerto con nuestra App móvil. Controla fácilmente el sistema desde cualquier lugar. Descárgala ahora y simplifica tu cultivo.
                     </p>
+                </div>
+                </div>
+
+                <div className="column">
+                <div className="card">
+                    <div className="icon-wrapper">
+                    <i className="fa-solid fa-hammer"></i>
+                    </div>
+                    <h4>Construye tu Huerto</h4>
+                    <p>
+                    ¡Te Ayudamos! Aprovecha lo que tienes para crear tu huerto sin costo extra. Solo agrega nuestro sistema para automatizarlo. ¡Hazlo realidad con nuestra ayuda!                    </p>
                 </div>
                 </div>
             </div>
@@ -57,4 +70,5 @@ function Service() {
 }
 
 export default Service;
+
 

@@ -17,24 +17,24 @@ function Service() {
                 <div className="column">
                 <div className="card">
                     <div className="icon-wrapper">
-                    <i style={{ zIndex: '-2' }} className="fas fa-hammer"></i>
+                    <i  className="fa-solid fa-microchip"></i>
                     </div>
-                    <h4>Building the orchard</h4>
+                    <h4>Mantenimiento electrico</h4>
                     <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
-                    consequatur necessitatibus eaque.
+                    Resuelve tus problemas de circuitos con nosotros. Nuestro equipo especializado está listo para ayudarte en cualquier momento. Aprovecha nuestra experiencia y asegura el funcionamiento óptimo de tu sistema de riego vertical.
                     </p>
                 </div>
                 </div>
                 <div className="column">
                 <div className="card">
                     <div className="icon-wrapper">
-                    <i className="fas fa-brush"></i>
+                    <i className="fa-solid fa-bug-slash"></i>
                     </div>
-                    <h4>Service Heading</h4>
+                    <h4>Soluciones en tu programación</h4>
                     <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
-                    consequatur necessitatibus eaque.
+                    Optimiza tu huerto vertical con nuestro servicio de mantenimiento de programación. 
+                    Confía en nuestro equipo experto para resolver cualquier inconveniente en el circuito 
+                    y garantizar un funcionamiento sin interrupciones.
                     </p>
                 </div>
                 </div>
@@ -43,10 +43,9 @@ function Service() {
                     <div className="icon-wrapper">
                     <i className="fas fa-wrench"></i>
                     </div>
-                    <h4>Service Heading</h4>
+                    <h4>De tu mano al huerto</h4>
                     <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
-                    consequatur necessitatibus eaque.
+                    Optimiza el riego de tu huerto con nuestra App móvil. Controla fácilmente el sistema desde cualquier lugar. Descárgala ahora y simplifica tu cultivo.
                     </p>
                 </div>
                 </div>
@@ -58,3 +57,4 @@ function Service() {
 }
 
 export default Service;
+

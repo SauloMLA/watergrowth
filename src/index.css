@@ -214,7 +214,7 @@ a:hover{
   
  }
  .second-sec{
-  position: relative;
+  /*position: relative;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -222,17 +222,35 @@ a:hover{
   z-index: -1;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center;*/
+  margin: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  display: flex;
+  justify-content: center; /* Esto centra los elementos horizontalmente */
+
 }
+
+.quien {
+  font-size: 50px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row-reverse; /* Esto invierte el orden de los elementos hijos */
+}
+
 .divsecond-sec {
-  color: #274f33;
-  margin-left: 40px;
+  /*color: #274f33;
+  margin-left: 40px;*/
+  flex: 1; /* Esto hace que este div ocupe todo el espacio restante */
 
 }
 .vergarch-img {
   width: 80%;
-  height: 20%;
-  align-items: left;
+
+  /*align-items: left;*/
+  max-width: 100%; /* Esto asegura que la imagen no se salga de su contenedor */
 }
 
 
@@ -453,6 +471,7 @@ background-size: 120%;
   .row {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
   .column {
     width: 100%;

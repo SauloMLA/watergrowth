@@ -20,7 +20,7 @@ function Footer() {
         <div className="box">
           <h2>Follow Us</h2>
           <div className="red-social">
-            <a target="_blank" href="https://www.instagram.com/watergrowthsolutions/" className="fa-brands fa-instagram">
+            <a target="_blank" href="https://www.instagram.com/watergrowthsolutions/" className="fa-brands fa-instagram" rel="noreferrer">
               <span className="sr-only">Instagram</span>
             </a>
             <a href="mailto:watergrowthsolutions@gmail.com" className="fa fa-envelope">

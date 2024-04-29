@@ -548,12 +548,14 @@ background-size: 120%;
     border: 0;
   }
   
-
-  @media screen and (max-width: 508px) {
-
+  @media screen and (min-width: 508px) {
     .iniciobien-service{
       margin-bottom: 0px;
     }
+
+  }
+
+  @media screen and (max-width: 508px) {
 
     .conttent-fir h2{
       font-size: 40px;

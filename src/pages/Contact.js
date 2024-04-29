@@ -20,9 +20,13 @@ function Contact() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Aquí puedes agregar la lógica de validación antes de enviar el formulario
-        // Por ejemplo, puedes verificar si todos los campos están completos antes de enviar el correo electrónico
-
+        
+        // Verifica si todos los campos están llenos
+        if (formData.firstname.trim() === '' || formData.lastname.trim() === '' || formData.subject.trim() === '') {
+            alert('Por favor llena los campos'); // Muestra un mensaje de alerta al usuario
+            return; // Detiene el envío del formulario
+        }
+        
         // Envía el formulario por correo electrónico
         const mailtoLink = `mailto:watergrowthsolutions@gmail.com?subject=${formData.subject}&body=First Name: ${formData.firstname}%0A
         Last Name: ${formData.lastname}%0A

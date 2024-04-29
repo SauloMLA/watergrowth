@@ -10,7 +10,7 @@ return (
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione corrupti tempora et necessitatibus quas voluptatibus numquam iusto, vel quod natus possimus atque. Molestiae fugit iste doloremque molestias? Magnam, quidem voluptate.</p>
         </div>
         <div>
-          <img src="./img/vergarchi.jpg" alt="vergarchi" className="vergarch-img" />
+          <img src="./img/vergarchi.jpg" alt="vergarchi" className="vergarch-img mobile-hidde" />
         </div>
       </div>
     </div>

@@ -15,7 +15,7 @@ function Home() {
             <AboutUs/>
         </div>
         <div className="Verde">
-            <h4>Nuestra misión</h4>
+
         </div>
         <div className="blanqiuto"></div>
         <div className="Cafecito"></div>
